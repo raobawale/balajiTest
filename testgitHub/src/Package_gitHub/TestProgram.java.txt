@@ -1,0 +1,22 @@
+package test;
+
+public class VariableClass {
+
+	public static void main(String[] args) {
+		int a = 55;
+		int b = 75;
+
+		if (a > b) {
+			System.out.println("a is greater");
+
+		} else {
+
+			if (a == b) {
+				System.out.println("a is equal to b");
+			}
+			System.out.println("b is greater");
+		}
+
+	}
+
+}

@@ -1,0 +1,17 @@
+package cAlculator;
+
+public class Geometry {
+
+	public static void main(String[] args) {
+		
+		int sides = 4;
+		
+		if(sides == 3) {
+			System.out.println("triangle");
+		}else if(sides ==4) {
+			System.out.println("Square");
+		}else if(sides == 0) {
+			System.out.println("Circle");
+		}
+	}
+}
